@@ -5,101 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #fff;
-    color: #222;
-    min-height: 100vh;
-    line-height: 1.5;
-}
-
-@media screen and (max-width: 1440px) and (max-height: 1100px) {
-    #main-cont {
-        margin: 5vh auto;
-        width: 90vw;
-        background-color: yellow;
-        padding: 15px;
-    }
-
-    /* Grid layout controls the structure without breaking on resize */
-    #sub-cont {
-        width: 100%;
-        background-color: blue;
-        display: grid;
-        grid-template-columns: 27vw 1fr; /* Green sidebar is 27vw, Blue area takes the rest */
-        grid-template-rows: auto 1fr;
-    }
-
-    /* Red header spans across both columns */
-    #top-cont {
-        grid-column: 1 / span 2;
-        background-color: red;
-        min-height: 30vh;
-        padding: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end; /* Keeps the name on the right side */
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    /* Green left sidebar */
-    #left-cont {
-        grid-column: 1;
-        background-color: green;
-        min-height: 65vh;
-        padding-top: 10vh; /* Creates space so the overlapping image doesn't hit content below it */
-        display: flex;
-        justify-content: center; /* Centers the circle inside the sidebar */
-    }
-
-    /* The responsive circle container */
-    
-
-   
-        #pfp {
-    position: relative;
-    top: -15vh;
-    left: 5vw;
-    border-radius: 50%;
-    
-    /* Force a fixed size that remains a perfect circle */
-    width: 220px;
-    height: 220px; /* Setting explicit, matching width and height completely prevents the oval shape */
-    
-    /* Fixes any image distortion/stretching inside the circle */
-    object-fit: cover; 
-    display: block; /* Prevents inline alignment issues that can make images disappear */
-}
-}
+        
     </style>
 </head>
 <body>
-    <div id="main-cont">
-    <div id="sub-cont">
-        <!-- Header Section -->
-        <div id="top-cont">
-            <h1>Noriel Tud Panis</h1>
-        </div>
-        
-        <!-- Left Sidebar Section -->
-        <div id="left-cont">
-            <div class="pfp-wrapper">
-                <img id="pfp" src="img/pfp.jpg" alt="Profile Picture">
-            </div>
-        </div>
-        
-        <!-- Blue Main Content Section (Optional placeholder if you use it later) -->
-        <!-- <div id="right-cont"></div> -->
-    </div>
-</div>
+   
 </body>
 </html>
