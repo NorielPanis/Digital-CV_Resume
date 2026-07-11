@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #222;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+#main-cont{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 250vh;
+    max-width: 100%;
+    background-color: rgb(30, 41, 59);
+}
+#sub-cont{
+    position: absolute;
+    top: 8vh;
+    left: 6.5vw;
+    height: 244.3vh;
+    width: 87vw;
+    background-color: white;
+}
+#top-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(52, 61, 76);
+}
+#left-cont{
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    height: 214.2vh;
+    width: 27vw;
+    background-color: rgb(212, 212, 212);
+}
+#pfp{
+    position: relative;
+    top: -15vh;
+    left: 5vw;
+    border-radius: 50%;
+    height: 250px;
+    width: 225px;
+}
+h1{
+    position: absolute;
+    top: 10vh;
+    left: 41vw;
+    font-size: 3.5em;
+    color: white;
+}
+#sub-cont > h1{
+    position: absolute;
+    top: 40vh; 
+    left: 35vw;
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+    color: #3C3C45;
+    white-space: nowrap;
+}
+#sub-cont hr:nth-of-type(1){
+    position: absolute;
+    top: 46vh;
+    left: 35.35vw;
+    width: 55%;       
+    margin: 10px auto; /* Centered with 10px spacing top and bottom */
+    border-top: 1px solid #3C3C45; /* Sets the line thickness and color */
+}
+#sub-cont > p{
+    position: absolute;
+    top: 50vh;
+    left: 35.35vw;
+    font-size: clamp(12px, 20px, 36px);
+}
+#sub-cont h1:nth-of-type(2){
+    position: absolute;
+    top: 70vh;
+    left: 35vw;
+    color: #3C3C45;
+}
+#sub-cont hr:nth-of-type(2){
+    position:absolute;
+    top: 76vh;
+    left: 35.35vw;
+    width: 55%;
+    margin: 10px auto;
+    border-top: 1px solid #3C3C45;
+}
+#sub-cont ol{
+    position: absolute;
+    top: 82vh;
+    left: 36.55vw;
+}
+#sub-cont ol:first-of-type > li:nth-of-type(2){
+    position: absolute;
+    left: 30vw;
+    top: 0vh;
+    width: 100%;
+}
+#sub-cont ol:first-of-type > ul:nth-of-type(2){
+    position:absolute;
+    top: 3.6vh;
+    left: 30vw;
+    width: 100%;
+}
+#sub-cont h1:nth-of-type(3){
+    position: absolute;
+    top: 155vh;
+    left: 35vw;
+    color: #3C3C45;
+}
+#sub-cont hr:nth-of-type(3){
+    position: absolute;
+    top: 161vh;
+    left: 35.35vw;
+    width: 55%;
+    margin: 10px auto;
+    border-top: 1px solid #3C3C45;
+}
+#sub-cont ol:nth-of-type(2){
+    position: absolute;
+    top: 165vh;
+    left: 36.55vw;
+}
+#left-cont h2{
+    position: absolute;
+    left: 7vw;
+    font-size: clamp(12px, 24px, 36px);
+}
+#left-cont hr:nth-of-type(1){
+    position: absolute;
+    top: 44.5vh;
+    left: 7.2vw;
+    width: 55%;
+    margin: 10px auto;
+    border-top: 1px solid #3C3C45;
+}
