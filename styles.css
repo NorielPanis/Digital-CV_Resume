@@ -14,7 +14,7 @@ body {
     margin-top: 5vh;
     margin-left: 5vw;
     width: 90vw;
-    height: 250vh;
+    height: 205vh;
     max-width: 100%;
     background-color: rgb(30, 41, 59);
 }
@@ -22,7 +22,7 @@ body {
     position: absolute;
     top: 8vh;
     left: 6.5vw;
-    height: 244.3vh;
+    height: 199vh;
     width: 87vw;
     background-color: white;
 }
@@ -38,7 +38,7 @@ body {
     position: absolute;
     top: 30vh;
     left: 0;
-    height: 214.2vh;
+    height: 169vh;
     width: 27vw;
     background-color: rgb(212, 212, 212);
 }
@@ -131,14 +131,50 @@ h1{
 }
 #left-cont h2{
     position: absolute;
-    left: 7vw;
+    left: 4vw;
     font-size: clamp(12px, 24px, 36px);
 }
 #left-cont hr:nth-of-type(1){
     position: absolute;
     top: 44.5vh;
-    left: 7.2vw;
+    left: 4.2vw;
     width: 55%;
     margin: 10px auto;
     border-top: 1px solid #3C3C45;
+}
+#contact-cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.myP{
+    font-size: 1em;
+    font-weight: 700;
+    margin: 8px;
+}
+#contact-cont a{
+    text-decoration-color: none;
+    color: black;
+}
+#left-cont h2:nth-of-type(2){
+    position: absolute;
+    top: 90vh;
+}
+#left-cont hr:nth-of-type(2){
+    position: absolute;
+    top: 94.5vh;
+    left: 4.1vw;
+}
+#left-cont ul{
+    position: absolute;
+    top: 100vh;
+    left: 5.5vw;
+}
+#sub-cont > p:nth-of-type(2){
+    position: absolute;
+    font-size: 12px;
+    left: 71vw;
+    top: 199.2vh;
+    color: white;
 }
