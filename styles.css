@@ -179,6 +179,7 @@ h1{
     color: white;
 }
 
+/* For Medium Laptop */
 @media screen and (max-width: 1024px){
     h1{
     position: absolute;
@@ -201,6 +202,7 @@ h1{
 }
 }
 
+/* For Tablet */
 @media screen and (max-width: 768px){
     #pfp{
        height: 190px;
@@ -277,5 +279,101 @@ h1{
     }
     #left-cont{
         height: 215vh;
+    }
+}
+
+/* For Large Mobile */
+@media screen and (max-width: 425px){
+    #left-cont{
+        background-color: white;
+    }
+    #main-cont{
+        margin-top: 2vw;
+        margin-left: 1.45vw;
+        width: 97vw;
+        max-width: 300%;
+        height: 350vh;
+    }
+    #sub-cont{
+        height: 340vh;
+    }
+    h1{
+        top: 1vh;
+        left: 14.5vw;
+        font-size: 2em;
+    }
+    #pfp{
+        left: 25vw;
+    }
+    #sub-cont > h1{
+        left: 15.5vw;
+        top: 45vh;
+    }
+    #sub-cont hr:nth-of-type(1){
+        top: 49vh;
+        left: 16.5vw;
+        width: 65%;
+    }
+    #sub-cont p{
+        left: 10vw;
+        top: 55vh;
+        font-size: 1em;
+    }
+    #sub-cont h1:nth-of-type(2){
+        top: 77vh;
+        left: 15.5vw;
+    }
+    #sub-cont hr:nth-of-type(2){
+        top: 81vh;
+        left: 15.5vw;
+    }
+    #sub-cont ol:first-of-type{
+        left: 20vw;
+        top: 85vh;
+    }
+    #sub-cont h1:nth-of-type(3){
+        left: 15.5vw;
+        top: 199vh;
+    }
+    #sub-cont hr:nth-of-type(3){
+        top: 203.5vh;
+        left: 15.5vw;
+    }
+    #sub-cont ol:nth-of-type(2){
+        left: 19.5vw;
+    }
+    #left-cont{
+        width: 80vw;
+    }
+    #left-cont h2{
+        top: 227vh;
+        left: 15.5vw;
+    }
+    #left-cont hr:nth-of-type(1){
+        top: 232vh;
+        width: 60%;
+    }
+    #contact-cont{
+        position: absolute;
+        top: 229vh;
+        left: 8.3vw;
+        font-size: 1.2em;
+    }
+    #left-cont h2:nth-of-type(2){
+        top: 278vh;
+    }
+    #left-cont hr:nth-of-type(2){
+        top: 282vh;
+        width: 60%;
+    }
+    #left-cont ul{
+        top: 288vh;
+        left: 21vw;
+        font-size: 1.3em;
+    }
+    #sub-cont > p:nth-of-type(2){
+        top: 340.8vh;
+        left: 49.5vw;
+        color: white;
     }
 }
