@@ -377,3 +377,75 @@ h1{
         color: white;
     }
 }
+
+/* For Medium Mobile */
+
+@media screen and (max-width: 375px){
+    #main-cont{
+        height: 340vh;
+    }
+    #sub-cont{
+        height: 330vh;
+    }
+    h1{
+        left: 10vw;
+    }
+    #pfp{
+        left: 20vw;
+    }
+    #sub-cont > h1{
+        left: 12vw;
+    }
+    #sub-cont hr:nth-of-type(1){
+        left: 13vw;
+        width: 75%;
+    }
+    #sub-cont h1:nth-of-type(2){
+        left: 12vw;
+    }
+    #sub-cont hr:nth-of-type(2){
+        left: 13vw;
+        width: 75%;
+    }
+    #sub-cont ol:first-of-type{
+        left: 17.7vw;
+    }
+    #sub-cont h1:nth-of-type(3){
+        left: 12vw;
+    }
+    #sub-cont hr:nth-of-type(3){
+        left: 13vw;
+        width: 75%;
+    }
+    #sub-cont ol:nth-of-type(2){
+        left: 17.7vw;
+    }
+    #left-cont h2{
+        left: 12vw;
+    }
+    #left-cont hr:nth-of-type(1){
+        left: 13vw;
+        width: 75%;
+    }
+    #contact-cont{
+        left: 3.7vw;
+        font-size: 1.1em;
+    }
+    #left-cont h2:nth-of-type(2){
+        top: 275vh;
+    }
+    #left-cont hr:nth-of-type(2){
+        top: 279.5vh;
+        left: 13vw;
+        width: 75%;
+    }
+    #left-cont ul{
+        top: 284vh;
+        left: 18.5vw;
+    }
+    #sub-cont > p:nth-of-type(2){
+        color:white;
+        top: 330.6vh;
+        left: 44vw;
+    }
+}
